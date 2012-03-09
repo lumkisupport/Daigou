@@ -14,6 +14,7 @@
 <?php
   if ($user->logged_in)
       $user->logout();
+      sss
 	  
   redirect_to("index.php");
 ?>
