@@ -14,6 +14,6 @@
 <?php
   if ($user->logged_in)
       $user->logout();
-	  
-  redirect_to("index.php");
+     
+    redirect_to("index.php");
 ?>
